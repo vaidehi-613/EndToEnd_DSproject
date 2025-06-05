@@ -11,10 +11,10 @@ from pathlib import Path
 
 from src.datascience.utils.common import save_json
 
-import os
-os.environ["MLFLOW_TRACKING_URI"] ="https://dagshub.com/vaidehipawar755/EndToEnd_DSproject.mlflow"
-os.environ['MLFLOW_TRACKING_USERNAME'] = 'vaidehipawar755'
-os.environ['MLFLOW_TRACKING_PASSWORD'] = '8eea17d116d77cf9c97b571260725d41760dcebd'
+# import os
+# os.environ["MLFLOW_TRACKING_URI"] ="https://dagshub.com/vaidehipawar755/EndToEnd_DSproject.mlflow"
+# os.environ['MLFLOW_TRACKING_USERNAME'] = 'vaidehipawar755'
+# os.environ['MLFLOW_TRACKING_PASSWORD'] = '8eea17d116d77cf9c97b571260725d41760dcebd'
 
 class ModelEvaluation:
     def __init__(self, config:  ModelEvaluationConfig):
